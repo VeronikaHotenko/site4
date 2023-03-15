@@ -1,0 +1,274 @@
+/*Спецификация*/
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:500px;
+	letter-spacing: 0.05em;
+	font-size: 15px;
+	color:304041;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+p {
+	margin: 0;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.btn {
+	padding: 18px 0px;
+	font-size: 16px;
+	font-weight: 800;
+	border-radius: 119px;
+	display: block;
+	margin: 0 auto;
+}
+
+.btn:hover {
+	background:#1609AB;
+}
+
+.section-old {
+	padding-top: 143px;
+}
+
+.container_full-height {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+/*Первая секция*/
+
+.header {
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 1.39%, rgba(36, 32, 84, 0.23) 44.44%), url('../img/photo.png') no-repeat center top / cover;
+	height: 1000px;
+	text-align: center;
+	padding: 86px 0 80px;
+}
+
+.logo {
+	display:inline-block ;
+}
+
+.offer {
+	text-align: center;
+	margin-top: 201px;
+}
+.offer__city {
+	width: 245px;
+	height: 34px;
+	font-size: 15px;
+	color:#000;
+	background: #fff;
+	border-radius: 25px;
+	font-weight: 800;
+	display:inline-block;
+	padding: 8px ;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.offer__title {
+	font-size: 60px;
+	color:#fff;
+	margin-top: 24px;
+}
+
+.offer__route {
+	font-size: 20px;
+	color:#fff;
+	margin-top: 24px;
+}
+
+.offer__btn {
+	margin-top: 24px;
+	background: #5F51FF;
+	color: #fff;
+	width: 247px;
+	transition: background 0.5s ease;
+}
+
+.offer__btn:hover {
+	background: #1609AB;
+	transition: background 0.5s ease;
+}
+
+.arrow-down {
+	background: url('../img/arrow-down.svg');
+	width: 18px;
+	height: 27px;
+	display: block;
+	margin: 219px auto 0;
+	opacity: 0.5;
+	transition: opacity 0.5s ease;
+}
+
+.arrow-down:hover {
+	opacity: 1;
+	transition: opacity 0.5s ease;
+}
+
+/*Вторая секция*/
+
+.section-title {
+	text-align: center;
+	color: #304041;
+}
+
+.centre-wrapper {
+	background: #EAF4F7;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+}
+
+.centre-info {
+	padding: 90px 50px 90px 50px;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	text-align: left;
+}
+
+.centre-info__routes1 {
+	display: block;
+	margin-bottom: 20px;
+	font-size: 15px;
+	color: #789AA0;
+	text-transform: uppercase;
+}
+
+.center-info___title {
+	margin-top: 20px;
+	font-size: 24px;
+	color: #304041;
+}
+
+.center-block {
+	margin-top: 25px;
+}
+
+.center-block__text {
+	font-size: 15px;
+	line-height: 1.52em;
+}
+
+.center-block__text:not(:last-child) {
+	margin-bottom:20px ;
+}
+
+.center-info__arrow {
+	background: url("../img/arrow-next.svg");
+	width: 68px;
+	height: 17px;
+	display: block;
+	margin-top: 48px;
+	opacity: 0.5;
+	transition: opacity 0.5s ease;
+}
+
+.center-info__arrow:hover {
+	opacity: 1;
+	transition: opacity 0.5s ease;
+}
+
+ .centre-wrapper__image {
+	box-shadow:0px 25px 70px rgba(4, 43, 55, 0.28);
+	border-radius: 0px 5px 5px 0px;
+	height: 100%;
+	display: flex;
+}
+
+.centre-btn {
+	background:#fff;
+	margin: 0 auto;
+	width: 332px;
+	border: 1px solid #5F51FF;
+	text-align:center;
+	color:#5F51FF;
+	margin-top: 108px;
+	transition: background 0.5s ease;
+}
+
+.centre-btn:hover {
+	border: 1px solid #1609AB;
+	background:#fff;
+	transition: background 0.5s ease;
+}
+
+/*Третья секция*/
+
+.capabilities {
+	background: url("../img/photo2.jpg") no-repeat right top / 50%;
+	height: 626px;
+	margin-top: 93px;
+}
+
+.layout-wrap__item {
+	font-size: 16px;
+	width: 407px;
+	position: relative;
+	text-align: left;
+}
+
+.layout-wrap__item:not(:last-child){
+	margin-bottom: 61px;
+}
+
+.layout-wrap__item:before {
+	content:'';
+	display: block;
+	border-radius: 23px;
+	background: #4EB1B6;
+	width: 65px;
+	height: 7px;
+	display:flex; 
+	margin-bottom: 15px;
+	
+}
+
+/*Последняя секция*/
+
+.footer {
+	padding-top: 147px;
+	padding-bottom: 165px;
+}
+
+.footer-container {
+	display: flex;
+}
+
+.footer-container__text {
+	font-size: 14px;
+	color: #5C7677;	
+}
+
+.footer-container__text:not(:last-child){
+	margin-right: 60px	
+}
